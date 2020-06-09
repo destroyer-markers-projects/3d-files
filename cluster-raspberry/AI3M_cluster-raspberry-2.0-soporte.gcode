@@ -9,12 +9,12 @@
 ;MAXY:32.494
 ;MAXZ:20.025
 ;Generated with Cura_SteamEngine 4.5.0
-M140 S60
+M140 S65
 M105
-M190 S60
-M104 S200
+M190 S65
+M104 S205
 M105
-M109 S200
+M109 S205
 M82 ;absolute extrusion mode
 G21 ;metric values
 G90 ;absolute positioning
@@ -767,7 +767,7 @@ G0 X100.887 Y22.545
 G0 X100.887 Y22.691
 ;TIME_ELAPSED:25.055141
 ;LAYER:1
-M140 S60
+M140 S65
 M204 S1800
 M205 X8 Y8
 ;TYPE:WALL-INNER
@@ -25373,11 +25373,13 @@ M104 S0
 ;SETTING_3 SOPORTE\\ndefinition = anycubic_i3_mega\\n\\n[metadata]\\nintent_cate
 ;SETTING_3 gory = default\\ntype = quality_changes\\nsetting_version = 11\\nqual
 ;SETTING_3 ity_type = normal\\n\\n[values]\\nadhesion_type = brim\\nlayer_height
-;SETTING_3  = 0.12\\nlayer_height_0 = 0.15\\nsupport_enable = False\\n\\n", "ext
-;SETTING_3 ruder_quality": ["[general]\\nversion = 4\\nname = EXTRA-EXTRA-SIN SO
-;SETTING_3 PORTE\\ndefinition = anycubic_i3_mega\\n\\n[metadata]\\nintent_catego
-;SETTING_3 ry = default\\nposition = 0\\ntype = quality_changes\\nsetting_versio
-;SETTING_3 n = 11\\nquality_type = normal\\n\\n[values]\\ninfill_line_distance =
-;SETTING_3  1.5\\nironing_enabled = True\\nmaterial_flow = 110\\nmaterial_initia
-;SETTING_3 l_print_temperature = 195\\nretract_at_layer_change = True\\nspeed_ir
-;SETTING_3 oning = 90\\nspeed_layer_0 = 15.0\\n\\n"]}
+;SETTING_3  = 0.12\\nlayer_height_0 = 0.15\\nmaterial_bed_temperature = 65\\nsup
+;SETTING_3 port_enable = False\\n\\n", "extruder_quality": ["[general]\\nversion
+;SETTING_3  = 4\\nname = EXTRA-EXTRA-SIN SOPORTE\\ndefinition = anycubic_i3_mega
+;SETTING_3 \\n\\n[metadata]\\nintent_category = default\\nposition = 0\\ntype = 
+;SETTING_3 quality_changes\\nsetting_version = 11\\nquality_type = normal\\n\\n[
+;SETTING_3 values]\\ninfill_line_distance = 1.5\\nironing_enabled = True\\nmater
+;SETTING_3 ial_final_print_temperature = 195\\nmaterial_flow = 110\\nmaterial_in
+;SETTING_3 itial_print_temperature = 200\\nmaterial_print_temperature = 205\\nre
+;SETTING_3 tract_at_layer_change = True\\nspeed_ironing = 90\\nspeed_layer_0 = 1
+;SETTING_3 5.0\\n\\n"]}
